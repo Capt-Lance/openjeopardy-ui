@@ -1,4 +1,4 @@
-import BoardEditor from './create/board-editor';
+import BoardEditor from './create/BoardEditor';
 import './App.css';
 
 function App() {
