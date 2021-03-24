@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 type NavLinkProps = {
     link: string;
     text: string;
@@ -5,7 +7,7 @@ type NavLinkProps = {
 
 function NavLink(props: NavLinkProps) {
     return (
-        <a href={props.link}>{props.text}</a>
+        <Link to={props.link}>{props.text}</Link>
     )
 }
 

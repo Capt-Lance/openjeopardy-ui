@@ -6,7 +6,7 @@ function BoardEditor() {
     return (
         <div>
             <NavBar title="Boards">
-                <NavLink link="google.com" text="Google"></NavLink>
+                <NavLink link="/" text="Home"></NavLink>
             </NavBar>
             <div>
                 <Card>
